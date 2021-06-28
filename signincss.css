@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background-image: url(topBack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main
+{
+    width:500px;
+    height:600px;
+    margin:auto;
+    margin-top: 30px;
+    border-radius: 5%;
+    background:rgba(63, 46, 46, 0.4);
+    box-shadow: 1px 0.5px 1px 0.5px whitesmoke;
+}
+.fa-user
+{
+color:white;
+padding-left:190px;
+padding-bottom: 10px;
+padding-top:10px;
+}
+.login
+{
+    margin-left:10px;
+}
+.lhr
+{
+    border:1px solid white;
+    margin-bottom: 20px;
+}
+#submit
+{
+    color:white;
+    margin-top:100px;
+    margin-left: 180px;
+    font-size:20px;
+    padding:5px 50px 5px 50px;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    border:1px solid white;
+    background:rgba(63, 46, 46, 0.4);
+    transition:transform .2s;
+}
+#submit:hover
+{
+    color:white;
+    background:rgba(63, 46, 46, 0.4);
+    transform: scale(1.2);
+    border:1px solid  white;
+}
+.fa-lock
+{
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:50px;
+}
+.fa-envelope
+{
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:50px;
+}
+input[type=email]
+{
+    margin-left:130px;
+    margin-top:20px;
+    border-radius: 5px;
+    height:25px;
+    width:250px;
+    padding:2px;
+    outline: 0px;
+    font-size: 16px;
+    border:1px solid white;
+    transition: transform .2s;
+}
+input[type=email]:hover
+{
+    transform: scale(1.2);
+}
+input[type=password]
+{
+    margin-left:130px;
+    margin-top:20px;
+    padding:2px;
+    border-radius: 5px;
+    font-size: 16px;
+    height:25px;
+    width:250px;
+    transition: transform .2s;
+    outline:0px;
+    border:1px solid white;
+}
+input[type=password]:hover
+{
+    transform: scale(1.2);
+}
+.labelex
+{
+    font-size: 24px;
+    margin-left:180px;
+    color:white;
+}
